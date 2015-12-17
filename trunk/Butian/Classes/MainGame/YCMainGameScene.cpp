@@ -24,10 +24,6 @@ Scene* MainGame::createScene(int chapter)
 {
     auto scene = Scene::create();
     
-    auto layer = MainGame::create();
-    layer->m_chapter = chapter;
-    scene->addChild(layer);
-    
     //远景层
     farViewLayer = MainGameFarView::create();
     scene->addChild(farViewLayer);
@@ -46,6 +42,10 @@ Scene* MainGame::createScene(int chapter)
     scene->addChild(gameOverLayer);
     gameOverLayer->setVisible(false);
     
+    auto layer = MainGame::create();
+    layer->m_chapter = chapter;
+    scene->addChild(layer);
+
     return scene;
 }
 
@@ -133,6 +133,13 @@ void MainGame::tick(float dt) {
 
 #pragma mark - touch
 bool MainGame::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *event) {
+    
+    ParticleSystemQuad * particle = ParticleSystemQuad::create("crumble.plist");
+    particle->setPosition(Vec2(240, 160));
+    particle->setAutoRemoveOnFinish(true);
+    addChild(particle);
+    particle->setDuration(0.5);
+    
     if (isPass||isGameOver) {//过关后停止触摸
         return false;
     }
