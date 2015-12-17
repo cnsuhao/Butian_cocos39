@@ -79,6 +79,7 @@
 		8452D8CA1C2241480019B4E8 /* wind.png in Resources */ = {isa = PBXBuildFile; fileRef = 8452D8B91C2241480019B4E8 /* wind.png */; };
 		8452D8CD1C2241680019B4E8 /* Chapters in Resources */ = {isa = PBXBuildFile; fileRef = 8452D8CB1C2241680019B4E8 /* Chapters */; };
 		8452D8CE1C2241680019B4E8 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 8452D8CC1C2241680019B4E8 /* fonts */; };
+		8452D9081C2274FE0019B4E8 /* crumble.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8452D9071C2274FE0019B4E8 /* crumble.plist */; };
 		B41F41C0B96371BB9588626F /* res in Resources */ = {isa = PBXBuildFile; fileRef = 55014BDBA322584F88CF3D18 /* res */; };
 		B65B4F94A3BF1EC5CB00022A /* res in Resources */ = {isa = PBXBuildFile; fileRef = 55014BDBA322584F88CF3D18 /* res */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
@@ -186,6 +187,7 @@
 		8452D8B91C2241480019B4E8 /* wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind.png; sourceTree = "<group>"; };
 		8452D8CB1C2241680019B4E8 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
 		8452D8CC1C2241680019B4E8 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		8452D9071C2274FE0019B4E8 /* crumble.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = crumble.plist; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -308,6 +310,7 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8452D9071C2274FE0019B4E8 /* crumble.plist */,
 				8452D8A91C2241480019B4E8 /* BG_1.png */,
 				8452D8CB1C2241680019B4E8 /* Chapters */,
 				8452D8CC1C2241680019B4E8 /* fonts */,
@@ -551,6 +554,7 @@
 				8452D8C91C2241480019B4E8 /* wind.plist in Resources */,
 				8452D8CD1C2241680019B4E8 /* Chapters in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
+				8452D9081C2274FE0019B4E8 /* crumble.plist in Resources */,
 				8452D8BD1C2241480019B4E8 /* CloseNormal.png in Resources */,
 				8452D8C61C2241480019B4E8 /* pass.jpg in Resources */,
 				8452D8BE1C2241480019B4E8 /* CloseSelected.png in Resources */,
